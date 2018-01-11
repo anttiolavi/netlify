@@ -1,0 +1,22 @@
+{
+  "name": "netlify-workshop",
+  "version": "1.0.0",
+  "description": "Netlify workshop demo site",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kari.heikkinen@sc5.io",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.23.2",
+    "css-reset-and-normalize-sass": "^0.1.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.2.1",
+    "run-sequence": "^2.2.1"
+  }
+}

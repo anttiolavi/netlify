@@ -1,0 +1,32 @@
+@import '../node_modules/css-reset-and-normalize-sass/scss/reset-and-normalize';
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+blockquote {
+    color: darkgrey;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    &__header {
+        flex: 0 0 auto;
+        color: white;
+        background: blue;
+
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    &__main {
+        flex: 1 1 100%;
+        padding: 1rem;
+    }
+}
